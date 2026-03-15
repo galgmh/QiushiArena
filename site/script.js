@@ -1,6 +1,6 @@
 let data=[]
 
-fetch("../data/leaderboard.json")
+fetch("data/leaderboard.json")
 .then(r=>r.json())
 .then(json=>{
 
